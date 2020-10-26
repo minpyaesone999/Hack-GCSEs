@@ -7,19 +7,18 @@ body {
 	font-weight: 500;
 	font-size: 100%;
 	margin: 0;
-	padding:20px;
 }
 /* 
 *	Растягивает картинку на всю ширину блока в котором находится
 */
-img {
+img:not(.img logo) {
 	width: 100%;
 }
 
 .navigation {
 	font-weight: 300;
 	font-size: 0.9375rem;
-	max-width: 460px;
+	max-width: 700px;
 	min-width: 216px;
 	margin: 0 auto;
 	color: #696666;
@@ -116,7 +115,7 @@ img {
     height: 100%;
 }
 
-img:hover {
+img:hover:not(.img logo) {
 	cursor: pointer;
 	opacity: 0.8;
 }
