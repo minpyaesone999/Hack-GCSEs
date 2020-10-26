@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="tab.css" rel="stylesheet">
+    <link rel="stylesheet" href="accordion.css" type="text/css" />
+</head>
+<body>
+
+<div class="tab">
+  <button>Contact</button>
+  <button>Home</button>
+  <button>Dashboard</button>
+  <button>Biology</button>
+</div>
+
+<h1></h1>
+
+<nav class="navigation">
+  
+  <article>
+    <ul class="accordion">
+      <li class="accordion__item">
+        <a href="#" class="accordion__link">Past-Paper Question 1</a>
+        <ul class="sub-accordion">
+          <li class="sub-accordion__item"><img src="HG 5-2/5-2-3.png" alt="image" width="100%" onclick="this.src='HG 5-2/5-2-4.png'">
+          </li>
+          <li class="sub-accordion__item"><i>from: 0610/42/O/N/16</i></li>
+        </ul>
+      </li>
+      <li class="accordion__item">
+        <a href="#" class="accordion__link">Past-Paper Question 1</a>
+        <ul class="sub-accordion">
+          <li class="sub-accordion__item"><img src="HG 21-2/21-2-5.png" alt="image" width="100%">
+          </li>
+          <li class="sub-accordion__item"><img src="HG 21-2/21-2-5.png" alt="image" width="100%" onclick="this.src='HG 21-2/21-2-6.png'">
+          </li>
+          <li class="sub-accordion__item"><i>from: 0610/43/O/N/16</i></li>
+        </ul>
+      </li>
+      <li class="accordion__item">
+        <a href="#" class="accordion__link"></a>
+        <ul class="sub-accordion">
+        <ul>
+          <li class="sub-accordion__item"></li>
+          <li class="sub-accordion__item"></li>
+          <li class="sub-accordion__item"></li>
+          </ul>
+        </ul>
+      </li>
+    </ul>
+  </article>
+</nav>
+<script src="accordion.js"></script>
+</body>
+</html> 
